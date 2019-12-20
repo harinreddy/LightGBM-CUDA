@@ -1,0 +1,5 @@
+rm -rf build
+mkdir build
+cd build
+cmake .. -DUSE_GPU=1 -DUSE_CH=1
+make
