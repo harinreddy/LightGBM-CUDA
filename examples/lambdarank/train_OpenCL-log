@@ -1,0 +1,730 @@
+[LightGBM] [Info] Finished loading parameters
+[LightGBM] [Info] Loading query boundaries...
+[LightGBM] [Info] Loading query boundaries...
+[LightGBM] [Info] Finished loading data in 0.094357 seconds
+[LightGBM] [Info] This is the GPU trainer!!
+[LightGBM] [Info] Total Bins 6177
+[LightGBM] [Info] Number of data: 3005, number of used features: 211
+[LightGBM] [Info] Using requested OpenCL platform 0 device 0
+[LightGBM] [Info] Using GPU Device: Tesla V100-PCIE-16GB, Vendor: NVIDIA Corporation
+[LightGBM] [Info] Compiling OpenCL Kernel with 256 bins...
+[LightGBM] [Info] GPU programs have been built
+[LightGBM] [Info] Size of histogram bin entry: 12
+[LightGBM] [Info] 149 dense feature groups (0.44 MB) transferred to GPU in 0.027431 secs. 60 sparse feature groups
+[LightGBM] [Info] Finished initializing training
+[LightGBM] [Info] Started training...
+[LightGBM] [Info] Iteration:1, training ndcg@1 : 0.703104
+[LightGBM] [Info] Iteration:1, training ndcg@3 : 0.707849
+[LightGBM] [Info] Iteration:1, training ndcg@5 : 0.735594
+[LightGBM] [Info] Iteration:1, valid_1 ndcg@1 : 0.528762
+[LightGBM] [Info] Iteration:1, valid_1 ndcg@3 : 0.583405
+[LightGBM] [Info] Iteration:1, valid_1 ndcg@5 : 0.635418
+[LightGBM] [Info] 0.150339 seconds elapsed, finished iteration 1
+[LightGBM] [Info] Iteration:2, training ndcg@1 : 0.770813
+[LightGBM] [Info] Iteration:2, training ndcg@3 : 0.776623
+[LightGBM] [Info] Iteration:2, training ndcg@5 : 0.793134
+[LightGBM] [Info] Iteration:2, valid_1 ndcg@1 : 0.526286
+[LightGBM] [Info] Iteration:2, valid_1 ndcg@3 : 0.611316
+[LightGBM] [Info] Iteration:2, valid_1 ndcg@5 : 0.649858
+[LightGBM] [Info] 0.167107 seconds elapsed, finished iteration 2
+[LightGBM] [Info] Iteration:3, training ndcg@1 : 0.813267
+[LightGBM] [Info] Iteration:3, training ndcg@3 : 0.805323
+[LightGBM] [Info] Iteration:3, training ndcg@5 : 0.810974
+[LightGBM] [Info] Iteration:3, valid_1 ndcg@1 : 0.557905
+[LightGBM] [Info] Iteration:3, valid_1 ndcg@3 : 0.593538
+[LightGBM] [Info] Iteration:3, valid_1 ndcg@5 : 0.645223
+[LightGBM] [Info] 0.177210 seconds elapsed, finished iteration 3
+[LightGBM] [Info] Iteration:4, training ndcg@1 : 0.846103
+[LightGBM] [Info] Iteration:4, training ndcg@3 : 0.831553
+[LightGBM] [Info] Iteration:4, training ndcg@5 : 0.841239
+[LightGBM] [Info] Iteration:4, valid_1 ndcg@1 : 0.568381
+[LightGBM] [Info] Iteration:4, valid_1 ndcg@3 : 0.589332
+[LightGBM] [Info] Iteration:4, valid_1 ndcg@5 : 0.631955
+[LightGBM] [Info] 0.197041 seconds elapsed, finished iteration 4
+[LightGBM] [Info] Iteration:5, training ndcg@1 : 0.866714
+[LightGBM] [Info] Iteration:5, training ndcg@3 : 0.852897
+[LightGBM] [Info] Iteration:5, training ndcg@5 : 0.852011
+[LightGBM] [Info] Iteration:5, valid_1 ndcg@1 : 0.566476
+[LightGBM] [Info] Iteration:5, valid_1 ndcg@3 : 0.603637
+[LightGBM] [Info] Iteration:5, valid_1 ndcg@5 : 0.662322
+[LightGBM] [Info] 0.205947 seconds elapsed, finished iteration 5
+[LightGBM] [Info] Iteration:6, training ndcg@1 : 0.875195
+[LightGBM] [Info] Iteration:6, training ndcg@3 : 0.86497
+[LightGBM] [Info] Iteration:6, training ndcg@5 : 0.862414
+[LightGBM] [Info] Iteration:6, valid_1 ndcg@1 : 0.601714
+[LightGBM] [Info] Iteration:6, valid_1 ndcg@3 : 0.642382
+[LightGBM] [Info] Iteration:6, valid_1 ndcg@5 : 0.669453
+[LightGBM] [Info] 0.226621 seconds elapsed, finished iteration 6
+[LightGBM] [Info] Iteration:7, training ndcg@1 : 0.886804
+[LightGBM] [Info] Iteration:7, training ndcg@3 : 0.869974
+[LightGBM] [Info] Iteration:7, training ndcg@5 : 0.871488
+[LightGBM] [Info] Iteration:7, valid_1 ndcg@1 : 0.603619
+[LightGBM] [Info] Iteration:7, valid_1 ndcg@3 : 0.632919
+[LightGBM] [Info] Iteration:7, valid_1 ndcg@5 : 0.667169
+[LightGBM] [Info] 0.235040 seconds elapsed, finished iteration 7
+[LightGBM] [Info] Iteration:8, training ndcg@1 : 0.904051
+[LightGBM] [Info] Iteration:8, training ndcg@3 : 0.883676
+[LightGBM] [Info] Iteration:8, training ndcg@5 : 0.884711
+[LightGBM] [Info] Iteration:8, valid_1 ndcg@1 : 0.600762
+[LightGBM] [Info] Iteration:8, valid_1 ndcg@3 : 0.643554
+[LightGBM] [Info] Iteration:8, valid_1 ndcg@5 : 0.672567
+[LightGBM] [Info] 0.247180 seconds elapsed, finished iteration 8
+[LightGBM] [Info] Iteration:9, training ndcg@1 : 0.911348
+[LightGBM] [Info] Iteration:9, training ndcg@3 : 0.896909
+[LightGBM] [Info] Iteration:9, training ndcg@5 : 0.892809
+[LightGBM] [Info] Iteration:9, valid_1 ndcg@1 : 0.576952
+[LightGBM] [Info] Iteration:9, valid_1 ndcg@3 : 0.649904
+[LightGBM] [Info] Iteration:9, valid_1 ndcg@5 : 0.680361
+[LightGBM] [Info] 0.264130 seconds elapsed, finished iteration 9
+[LightGBM] [Info] Iteration:10, training ndcg@1 : 0.911348
+[LightGBM] [Info] Iteration:10, training ndcg@3 : 0.900783
+[LightGBM] [Info] Iteration:10, training ndcg@5 : 0.896976
+[LightGBM] [Info] Iteration:10, valid_1 ndcg@1 : 0.546667
+[LightGBM] [Info] Iteration:10, valid_1 ndcg@3 : 0.63564
+[LightGBM] [Info] Iteration:10, valid_1 ndcg@5 : 0.669001
+[LightGBM] [Info] 0.276314 seconds elapsed, finished iteration 10
+[LightGBM] [Info] Iteration:11, training ndcg@1 : 0.922909
+[LightGBM] [Info] Iteration:11, training ndcg@3 : 0.907925
+[LightGBM] [Info] Iteration:11, training ndcg@5 : 0.900546
+[LightGBM] [Info] Iteration:11, valid_1 ndcg@1 : 0.526476
+[LightGBM] [Info] Iteration:11, valid_1 ndcg@3 : 0.652765
+[LightGBM] [Info] Iteration:11, valid_1 ndcg@5 : 0.666555
+[LightGBM] [Info] 1.366782 seconds elapsed, finished iteration 11
+[LightGBM] [Info] Iteration:12, training ndcg@1 : 0.918645
+[LightGBM] [Info] Iteration:12, training ndcg@3 : 0.911327
+[LightGBM] [Info] Iteration:12, training ndcg@5 : 0.903774
+[LightGBM] [Info] Iteration:12, valid_1 ndcg@1 : 0.537905
+[LightGBM] [Info] Iteration:12, valid_1 ndcg@3 : 0.614797
+[LightGBM] [Info] Iteration:12, valid_1 ndcg@5 : 0.648289
+[LightGBM] [Info] 1.374224 seconds elapsed, finished iteration 12
+[LightGBM] [Info] Iteration:13, training ndcg@1 : 0.921488
+[LightGBM] [Info] Iteration:13, training ndcg@3 : 0.913182
+[LightGBM] [Info] Iteration:13, training ndcg@5 : 0.908417
+[LightGBM] [Info] Iteration:13, valid_1 ndcg@1 : 0.565333
+[LightGBM] [Info] Iteration:13, valid_1 ndcg@3 : 0.614634
+[LightGBM] [Info] Iteration:13, valid_1 ndcg@5 : 0.655658
+[LightGBM] [Info] 1.382129 seconds elapsed, finished iteration 13
+[LightGBM] [Info] Iteration:14, training ndcg@1 : 0.921488
+[LightGBM] [Info] Iteration:14, training ndcg@3 : 0.917712
+[LightGBM] [Info] Iteration:14, training ndcg@5 : 0.911187
+[LightGBM] [Info] Iteration:14, valid_1 ndcg@1 : 0.563429
+[LightGBM] [Info] Iteration:14, valid_1 ndcg@3 : 0.616743
+[LightGBM] [Info] Iteration:14, valid_1 ndcg@5 : 0.665327
+[LightGBM] [Info] 1.389719 seconds elapsed, finished iteration 14
+[LightGBM] [Info] Iteration:15, training ndcg@1 : 0.929069
+[LightGBM] [Info] Iteration:15, training ndcg@3 : 0.922097
+[LightGBM] [Info] Iteration:15, training ndcg@5 : 0.9183
+[LightGBM] [Info] Iteration:15, valid_1 ndcg@1 : 0.619238
+[LightGBM] [Info] Iteration:15, valid_1 ndcg@3 : 0.636922
+[LightGBM] [Info] Iteration:15, valid_1 ndcg@5 : 0.686247
+[LightGBM] [Info] 1.397361 seconds elapsed, finished iteration 15
+[LightGBM] [Info] Iteration:16, training ndcg@1 : 0.929069
+[LightGBM] [Info] Iteration:16, training ndcg@3 : 0.92293
+[LightGBM] [Info] Iteration:16, training ndcg@5 : 0.916735
+[LightGBM] [Info] Iteration:16, valid_1 ndcg@1 : 0.622095
+[LightGBM] [Info] Iteration:16, valid_1 ndcg@3 : 0.630468
+[LightGBM] [Info] Iteration:16, valid_1 ndcg@5 : 0.670822
+[LightGBM] [Info] 1.404612 seconds elapsed, finished iteration 16
+[LightGBM] [Info] Iteration:17, training ndcg@1 : 0.929069
+[LightGBM] [Info] Iteration:17, training ndcg@3 : 0.92618
+[LightGBM] [Info] Iteration:17, training ndcg@5 : 0.923066
+[LightGBM] [Info] Iteration:17, valid_1 ndcg@1 : 0.619238
+[LightGBM] [Info] Iteration:17, valid_1 ndcg@3 : 0.640123
+[LightGBM] [Info] Iteration:17, valid_1 ndcg@5 : 0.675582
+[LightGBM] [Info] 1.412281 seconds elapsed, finished iteration 17
+[LightGBM] [Info] Iteration:18, training ndcg@1 : 0.929069
+[LightGBM] [Info] Iteration:18, training ndcg@3 : 0.928501
+[LightGBM] [Info] Iteration:18, training ndcg@5 : 0.923552
+[LightGBM] [Info] Iteration:18, valid_1 ndcg@1 : 0.606286
+[LightGBM] [Info] Iteration:18, valid_1 ndcg@3 : 0.638075
+[LightGBM] [Info] Iteration:18, valid_1 ndcg@5 : 0.676511
+[LightGBM] [Info] 1.419946 seconds elapsed, finished iteration 18
+[LightGBM] [Info] Iteration:19, training ndcg@1 : 0.929069
+[LightGBM] [Info] Iteration:19, training ndcg@3 : 0.928339
+[LightGBM] [Info] Iteration:19, training ndcg@5 : 0.92628
+[LightGBM] [Info] Iteration:19, valid_1 ndcg@1 : 0.606286
+[LightGBM] [Info] Iteration:19, valid_1 ndcg@3 : 0.638446
+[LightGBM] [Info] Iteration:19, valid_1 ndcg@5 : 0.67827
+[LightGBM] [Info] 1.427597 seconds elapsed, finished iteration 19
+[LightGBM] [Info] Iteration:20, training ndcg@1 : 0.929069
+[LightGBM] [Info] Iteration:20, training ndcg@3 : 0.930946
+[LightGBM] [Info] Iteration:20, training ndcg@5 : 0.926635
+[LightGBM] [Info] Iteration:20, valid_1 ndcg@1 : 0.613524
+[LightGBM] [Info] Iteration:20, valid_1 ndcg@3 : 0.643384
+[LightGBM] [Info] Iteration:20, valid_1 ndcg@5 : 0.676094
+[LightGBM] [Info] 1.435234 seconds elapsed, finished iteration 20
+[LightGBM] [Info] Iteration:21, training ndcg@1 : 0.931912
+[LightGBM] [Info] Iteration:21, training ndcg@3 : 0.93362
+[LightGBM] [Info] Iteration:21, training ndcg@5 : 0.927732
+[LightGBM] [Info] Iteration:21, valid_1 ndcg@1 : 0.646857
+[LightGBM] [Info] Iteration:21, valid_1 ndcg@3 : 0.650511
+[LightGBM] [Info] Iteration:21, valid_1 ndcg@5 : 0.687627
+[LightGBM] [Info] 1.442563 seconds elapsed, finished iteration 21
+[LightGBM] [Info] Iteration:22, training ndcg@1 : 0.931912
+[LightGBM] [Info] Iteration:22, training ndcg@3 : 0.936249
+[LightGBM] [Info] Iteration:22, training ndcg@5 : 0.930657
+[LightGBM] [Info] Iteration:22, valid_1 ndcg@1 : 0.649905
+[LightGBM] [Info] Iteration:22, valid_1 ndcg@3 : 0.669443
+[LightGBM] [Info] Iteration:22, valid_1 ndcg@5 : 0.698526
+[LightGBM] [Info] 1.450177 seconds elapsed, finished iteration 22
+[LightGBM] [Info] Iteration:23, training ndcg@1 : 0.931912
+[LightGBM] [Info] Iteration:23, training ndcg@3 : 0.936686
+[LightGBM] [Info] Iteration:23, training ndcg@5 : 0.929759
+[LightGBM] [Info] Iteration:23, valid_1 ndcg@1 : 0.649905
+[LightGBM] [Info] Iteration:23, valid_1 ndcg@3 : 0.672664
+[LightGBM] [Info] Iteration:23, valid_1 ndcg@5 : 0.699759
+[LightGBM] [Info] 1.457789 seconds elapsed, finished iteration 23
+[LightGBM] [Info] Iteration:24, training ndcg@1 : 0.936887
+[LightGBM] [Info] Iteration:24, training ndcg@3 : 0.939896
+[LightGBM] [Info] Iteration:24, training ndcg@5 : 0.934337
+[LightGBM] [Info] Iteration:24, valid_1 ndcg@1 : 0.630857
+[LightGBM] [Info] Iteration:24, valid_1 ndcg@3 : 0.670571
+[LightGBM] [Info] Iteration:24, valid_1 ndcg@5 : 0.692372
+[LightGBM] [Info] 1.465466 seconds elapsed, finished iteration 24
+[LightGBM] [Info] Iteration:25, training ndcg@1 : 0.940204
+[LightGBM] [Info] Iteration:25, training ndcg@3 : 0.942541
+[LightGBM] [Info] Iteration:25, training ndcg@5 : 0.93515
+[LightGBM] [Info] Iteration:25, valid_1 ndcg@1 : 0.599429
+[LightGBM] [Info] Iteration:25, valid_1 ndcg@3 : 0.660462
+[LightGBM] [Info] Iteration:25, valid_1 ndcg@5 : 0.686085
+[LightGBM] [Info] 1.473058 seconds elapsed, finished iteration 25
+[LightGBM] [Info] Iteration:26, training ndcg@1 : 0.940204
+[LightGBM] [Info] Iteration:26, training ndcg@3 : 0.94534
+[LightGBM] [Info] Iteration:26, training ndcg@5 : 0.936153
+[LightGBM] [Info] Iteration:26, valid_1 ndcg@1 : 0.599429
+[LightGBM] [Info] Iteration:26, valid_1 ndcg@3 : 0.653768
+[LightGBM] [Info] Iteration:26, valid_1 ndcg@5 : 0.679657
+[LightGBM] [Info] 1.480288 seconds elapsed, finished iteration 26
+[LightGBM] [Info] Iteration:27, training ndcg@1 : 0.940204
+[LightGBM] [Info] Iteration:27, training ndcg@3 : 0.944965
+[LightGBM] [Info] Iteration:27, training ndcg@5 : 0.936289
+[LightGBM] [Info] Iteration:27, valid_1 ndcg@1 : 0.599429
+[LightGBM] [Info] Iteration:27, valid_1 ndcg@3 : 0.642528
+[LightGBM] [Info] Iteration:27, valid_1 ndcg@5 : 0.686045
+[LightGBM] [Info] 1.487937 seconds elapsed, finished iteration 27
+[LightGBM] [Info] Iteration:28, training ndcg@1 : 0.940204
+[LightGBM] [Info] Iteration:28, training ndcg@3 : 0.945436
+[LightGBM] [Info] Iteration:28, training ndcg@5 : 0.938461
+[LightGBM] [Info] Iteration:28, valid_1 ndcg@1 : 0.615429
+[LightGBM] [Info] Iteration:28, valid_1 ndcg@3 : 0.643583
+[LightGBM] [Info] Iteration:28, valid_1 ndcg@5 : 0.685507
+[LightGBM] [Info] 1.495211 seconds elapsed, finished iteration 28
+[LightGBM] [Info] Iteration:29, training ndcg@1 : 0.943047
+[LightGBM] [Info] Iteration:29, training ndcg@3 : 0.946908
+[LightGBM] [Info] Iteration:29, training ndcg@5 : 0.942102
+[LightGBM] [Info] Iteration:29, valid_1 ndcg@1 : 0.604
+[LightGBM] [Info] Iteration:29, valid_1 ndcg@3 : 0.648635
+[LightGBM] [Info] Iteration:29, valid_1 ndcg@5 : 0.686079
+[LightGBM] [Info] 1.503123 seconds elapsed, finished iteration 29
+[LightGBM] [Info] Iteration:30, training ndcg@1 : 0.947311
+[LightGBM] [Info] Iteration:30, training ndcg@3 : 0.946802
+[LightGBM] [Info] Iteration:30, training ndcg@5 : 0.943089
+[LightGBM] [Info] Iteration:30, valid_1 ndcg@1 : 0.604
+[LightGBM] [Info] Iteration:30, valid_1 ndcg@3 : 0.647
+[LightGBM] [Info] Iteration:30, valid_1 ndcg@5 : 0.681752
+[LightGBM] [Info] 1.510575 seconds elapsed, finished iteration 30
+[LightGBM] [Info] Iteration:31, training ndcg@1 : 0.947311
+[LightGBM] [Info] Iteration:31, training ndcg@3 : 0.948835
+[LightGBM] [Info] Iteration:31, training ndcg@5 : 0.94483
+[LightGBM] [Info] Iteration:31, valid_1 ndcg@1 : 0.610667
+[LightGBM] [Info] Iteration:31, valid_1 ndcg@3 : 0.648054
+[LightGBM] [Info] Iteration:31, valid_1 ndcg@5 : 0.688105
+[LightGBM] [Info] 1.518189 seconds elapsed, finished iteration 31
+[LightGBM] [Info] Iteration:32, training ndcg@1 : 0.947311
+[LightGBM] [Info] Iteration:32, training ndcg@3 : 0.949179
+[LightGBM] [Info] Iteration:32, training ndcg@5 : 0.946497
+[LightGBM] [Info] Iteration:32, valid_1 ndcg@1 : 0.632762
+[LightGBM] [Info] Iteration:32, valid_1 ndcg@3 : 0.62986
+[LightGBM] [Info] Iteration:32, valid_1 ndcg@5 : 0.678789
+[LightGBM] [Info] 1.526046 seconds elapsed, finished iteration 32
+[LightGBM] [Info] Iteration:33, training ndcg@1 : 0.950154
+[LightGBM] [Info] Iteration:33, training ndcg@3 : 0.951824
+[LightGBM] [Info] Iteration:33, training ndcg@5 : 0.947712
+[LightGBM] [Info] Iteration:33, valid_1 ndcg@1 : 0.601333
+[LightGBM] [Info] Iteration:33, valid_1 ndcg@3 : 0.635304
+[LightGBM] [Info] Iteration:33, valid_1 ndcg@5 : 0.671589
+[LightGBM] [Info] 1.533854 seconds elapsed, finished iteration 33
+[LightGBM] [Info] Iteration:34, training ndcg@1 : 0.952997
+[LightGBM] [Info] Iteration:34, training ndcg@3 : 0.954196
+[LightGBM] [Info] Iteration:34, training ndcg@5 : 0.948215
+[LightGBM] [Info] Iteration:34, valid_1 ndcg@1 : 0.632762
+[LightGBM] [Info] Iteration:34, valid_1 ndcg@3 : 0.635192
+[LightGBM] [Info] Iteration:34, valid_1 ndcg@5 : 0.678388
+[LightGBM] [Info] 1.541272 seconds elapsed, finished iteration 34
+[LightGBM] [Info] Iteration:35, training ndcg@1 : 0.95764
+[LightGBM] [Info] Iteration:35, training ndcg@3 : 0.958753
+[LightGBM] [Info] Iteration:35, training ndcg@5 : 0.952939
+[LightGBM] [Info] Iteration:35, valid_1 ndcg@1 : 0.632762
+[LightGBM] [Info] Iteration:35, valid_1 ndcg@3 : 0.651067
+[LightGBM] [Info] Iteration:35, valid_1 ndcg@5 : 0.686304
+[LightGBM] [Info] 1.548997 seconds elapsed, finished iteration 35
+[LightGBM] [Info] Iteration:36, training ndcg@1 : 0.95764
+[LightGBM] [Info] Iteration:36, training ndcg@3 : 0.959684
+[LightGBM] [Info] Iteration:36, training ndcg@5 : 0.950946
+[LightGBM] [Info] Iteration:36, valid_1 ndcg@1 : 0.621333
+[LightGBM] [Info] Iteration:36, valid_1 ndcg@3 : 0.640536
+[LightGBM] [Info] Iteration:36, valid_1 ndcg@5 : 0.681645
+[LightGBM] [Info] 1.556828 seconds elapsed, finished iteration 36
+[LightGBM] [Info] Iteration:37, training ndcg@1 : 0.95764
+[LightGBM] [Info] Iteration:37, training ndcg@3 : 0.960121
+[LightGBM] [Info] Iteration:37, training ndcg@5 : 0.951862
+[LightGBM] [Info] Iteration:37, valid_1 ndcg@1 : 0.621333
+[LightGBM] [Info] Iteration:37, valid_1 ndcg@3 : 0.641123
+[LightGBM] [Info] Iteration:37, valid_1 ndcg@5 : 0.679628
+[LightGBM] [Info] 1.564629 seconds elapsed, finished iteration 37
+[LightGBM] [Info] Iteration:38, training ndcg@1 : 0.95764
+[LightGBM] [Info] Iteration:38, training ndcg@3 : 0.960121
+[LightGBM] [Info] Iteration:38, training ndcg@5 : 0.951629
+[LightGBM] [Info] Iteration:38, valid_1 ndcg@1 : 0.601333
+[LightGBM] [Info] Iteration:38, valid_1 ndcg@3 : 0.633154
+[LightGBM] [Info] Iteration:38, valid_1 ndcg@5 : 0.678671
+[LightGBM] [Info] 1.572525 seconds elapsed, finished iteration 38
+[LightGBM] [Info] Iteration:39, training ndcg@1 : 0.95764
+[LightGBM] [Info] Iteration:39, training ndcg@3 : 0.959795
+[LightGBM] [Info] Iteration:39, training ndcg@5 : 0.951332
+[LightGBM] [Info] Iteration:39, valid_1 ndcg@1 : 0.601333
+[LightGBM] [Info] Iteration:39, valid_1 ndcg@3 : 0.639476
+[LightGBM] [Info] Iteration:39, valid_1 ndcg@5 : 0.679582
+[LightGBM] [Info] 1.580845 seconds elapsed, finished iteration 39
+[LightGBM] [Info] Iteration:40, training ndcg@1 : 0.95764
+[LightGBM] [Info] Iteration:40, training ndcg@3 : 0.960463
+[LightGBM] [Info] Iteration:40, training ndcg@5 : 0.95409
+[LightGBM] [Info] Iteration:40, valid_1 ndcg@1 : 0.601333
+[LightGBM] [Info] Iteration:40, valid_1 ndcg@3 : 0.64006
+[LightGBM] [Info] Iteration:40, valid_1 ndcg@5 : 0.673757
+[LightGBM] [Info] 1.636956 seconds elapsed, finished iteration 40
+[LightGBM] [Info] Iteration:41, training ndcg@1 : 0.95764
+[LightGBM] [Info] Iteration:41, training ndcg@3 : 0.960463
+[LightGBM] [Info] Iteration:41, training ndcg@5 : 0.955579
+[LightGBM] [Info] Iteration:41, valid_1 ndcg@1 : 0.601333
+[LightGBM] [Info] Iteration:41, valid_1 ndcg@3 : 0.640329
+[LightGBM] [Info] Iteration:41, valid_1 ndcg@5 : 0.678931
+[LightGBM] [Info] 1.644747 seconds elapsed, finished iteration 41
+[LightGBM] [Info] Iteration:42, training ndcg@1 : 0.95764
+[LightGBM] [Info] Iteration:42, training ndcg@3 : 0.960463
+[LightGBM] [Info] Iteration:42, training ndcg@5 : 0.955448
+[LightGBM] [Info] Iteration:42, valid_1 ndcg@1 : 0.646095
+[LightGBM] [Info] Iteration:42, valid_1 ndcg@3 : 0.644689
+[LightGBM] [Info] Iteration:42, valid_1 ndcg@5 : 0.67945
+[LightGBM] [Info] 1.653347 seconds elapsed, finished iteration 42
+[LightGBM] [Info] Iteration:43, training ndcg@1 : 0.960483
+[LightGBM] [Info] Iteration:43, training ndcg@3 : 0.960955
+[LightGBM] [Info] Iteration:43, training ndcg@5 : 0.957096
+[LightGBM] [Info] Iteration:43, valid_1 ndcg@1 : 0.626095
+[LightGBM] [Info] Iteration:43, valid_1 ndcg@3 : 0.653237
+[LightGBM] [Info] Iteration:43, valid_1 ndcg@5 : 0.67783
+[LightGBM] [Info] 1.661013 seconds elapsed, finished iteration 43
+[LightGBM] [Info] Iteration:44, training ndcg@1 : 0.960483
+[LightGBM] [Info] Iteration:44, training ndcg@3 : 0.961725
+[LightGBM] [Info] Iteration:44, training ndcg@5 : 0.957866
+[LightGBM] [Info] Iteration:44, valid_1 ndcg@1 : 0.619429
+[LightGBM] [Info] Iteration:44, valid_1 ndcg@3 : 0.637659
+[LightGBM] [Info] Iteration:44, valid_1 ndcg@5 : 0.67592
+[LightGBM] [Info] 1.669075 seconds elapsed, finished iteration 44
+[LightGBM] [Info] Iteration:45, training ndcg@1 : 0.960483
+[LightGBM] [Info] Iteration:45, training ndcg@3 : 0.962948
+[LightGBM] [Info] Iteration:45, training ndcg@5 : 0.960265
+[LightGBM] [Info] Iteration:45, valid_1 ndcg@1 : 0.619429
+[LightGBM] [Info] Iteration:45, valid_1 ndcg@3 : 0.638669
+[LightGBM] [Info] Iteration:45, valid_1 ndcg@5 : 0.679975
+[LightGBM] [Info] 1.676569 seconds elapsed, finished iteration 45
+[LightGBM] [Info] Iteration:46, training ndcg@1 : 0.960483
+[LightGBM] [Info] Iteration:46, training ndcg@3 : 0.96315
+[LightGBM] [Info] Iteration:46, training ndcg@5 : 0.95995
+[LightGBM] [Info] Iteration:46, valid_1 ndcg@1 : 0.619429
+[LightGBM] [Info] Iteration:46, valid_1 ndcg@3 : 0.648048
+[LightGBM] [Info] Iteration:46, valid_1 ndcg@5 : 0.678549
+[LightGBM] [Info] 1.684312 seconds elapsed, finished iteration 46
+[LightGBM] [Info] Iteration:47, training ndcg@1 : 0.960483
+[LightGBM] [Info] Iteration:47, training ndcg@3 : 0.965601
+[LightGBM] [Info] Iteration:47, training ndcg@5 : 0.96139
+[LightGBM] [Info] Iteration:47, valid_1 ndcg@1 : 0.619429
+[LightGBM] [Info] Iteration:47, valid_1 ndcg@3 : 0.649431
+[LightGBM] [Info] Iteration:47, valid_1 ndcg@5 : 0.674027
+[LightGBM] [Info] 1.692243 seconds elapsed, finished iteration 47
+[LightGBM] [Info] Iteration:48, training ndcg@1 : 0.960483
+[LightGBM] [Info] Iteration:48, training ndcg@3 : 0.965601
+[LightGBM] [Info] Iteration:48, training ndcg@5 : 0.961764
+[LightGBM] [Info] Iteration:48, valid_1 ndcg@1 : 0.619429
+[LightGBM] [Info] Iteration:48, valid_1 ndcg@3 : 0.65084
+[LightGBM] [Info] Iteration:48, valid_1 ndcg@5 : 0.681578
+[LightGBM] [Info] 1.700231 seconds elapsed, finished iteration 48
+[LightGBM] [Info] Iteration:49, training ndcg@1 : 0.963326
+[LightGBM] [Info] Iteration:49, training ndcg@3 : 0.966307
+[LightGBM] [Info] Iteration:49, training ndcg@5 : 0.963432
+[LightGBM] [Info] Iteration:49, valid_1 ndcg@1 : 0.619429
+[LightGBM] [Info] Iteration:49, valid_1 ndcg@3 : 0.652957
+[LightGBM] [Info] Iteration:49, valid_1 ndcg@5 : 0.681324
+[LightGBM] [Info] 1.708093 seconds elapsed, finished iteration 49
+[LightGBM] [Info] Iteration:50, training ndcg@1 : 0.963326
+[LightGBM] [Info] Iteration:50, training ndcg@3 : 0.967757
+[LightGBM] [Info] Iteration:50, training ndcg@5 : 0.964066
+[LightGBM] [Info] Iteration:50, valid_1 ndcg@1 : 0.639429
+[LightGBM] [Info] Iteration:50, valid_1 ndcg@3 : 0.664999
+[LightGBM] [Info] Iteration:50, valid_1 ndcg@5 : 0.689942
+[LightGBM] [Info] 1.715858 seconds elapsed, finished iteration 50
+[LightGBM] [Info] Iteration:51, training ndcg@1 : 0.963326
+[LightGBM] [Info] Iteration:51, training ndcg@3 : 0.967673
+[LightGBM] [Info] Iteration:51, training ndcg@5 : 0.96442
+[LightGBM] [Info] Iteration:51, valid_1 ndcg@1 : 0.639429
+[LightGBM] [Info] Iteration:51, valid_1 ndcg@3 : 0.66026
+[LightGBM] [Info] Iteration:51, valid_1 ndcg@5 : 0.684383
+[LightGBM] [Info] 1.723674 seconds elapsed, finished iteration 51
+[LightGBM] [Info] Iteration:52, training ndcg@1 : 0.966169
+[LightGBM] [Info] Iteration:52, training ndcg@3 : 0.969373
+[LightGBM] [Info] Iteration:52, training ndcg@5 : 0.965589
+[LightGBM] [Info] Iteration:52, valid_1 ndcg@1 : 0.626095
+[LightGBM] [Info] Iteration:52, valid_1 ndcg@3 : 0.659914
+[LightGBM] [Info] Iteration:52, valid_1 ndcg@5 : 0.68018
+[LightGBM] [Info] 1.731499 seconds elapsed, finished iteration 52
+[LightGBM] [Info] Iteration:53, training ndcg@1 : 0.969012
+[LightGBM] [Info] Iteration:53, training ndcg@3 : 0.970079
+[LightGBM] [Info] Iteration:53, training ndcg@5 : 0.966581
+[LightGBM] [Info] Iteration:53, valid_1 ndcg@1 : 0.606095
+[LightGBM] [Info] Iteration:53, valid_1 ndcg@3 : 0.655862
+[LightGBM] [Info] Iteration:53, valid_1 ndcg@5 : 0.67222
+[LightGBM] [Info] 1.739480 seconds elapsed, finished iteration 53
+[LightGBM] [Info] Iteration:54, training ndcg@1 : 0.969012
+[LightGBM] [Info] Iteration:54, training ndcg@3 : 0.971522
+[LightGBM] [Info] Iteration:54, training ndcg@5 : 0.96701
+[LightGBM] [Info] Iteration:54, valid_1 ndcg@1 : 0.619429
+[LightGBM] [Info] Iteration:54, valid_1 ndcg@3 : 0.648978
+[LightGBM] [Info] Iteration:54, valid_1 ndcg@5 : 0.676573
+[LightGBM] [Info] 1.747338 seconds elapsed, finished iteration 54
+[LightGBM] [Info] Iteration:55, training ndcg@1 : 0.969012
+[LightGBM] [Info] Iteration:55, training ndcg@3 : 0.971696
+[LightGBM] [Info] Iteration:55, training ndcg@5 : 0.968252
+[LightGBM] [Info] Iteration:55, valid_1 ndcg@1 : 0.626095
+[LightGBM] [Info] Iteration:55, valid_1 ndcg@3 : 0.657213
+[LightGBM] [Info] Iteration:55, valid_1 ndcg@5 : 0.681564
+[LightGBM] [Info] 1.755406 seconds elapsed, finished iteration 55
+[LightGBM] [Info] Iteration:56, training ndcg@1 : 0.969012
+[LightGBM] [Info] Iteration:56, training ndcg@3 : 0.971696
+[LightGBM] [Info] Iteration:56, training ndcg@5 : 0.96868
+[LightGBM] [Info] Iteration:56, valid_1 ndcg@1 : 0.646095
+[LightGBM] [Info] Iteration:56, valid_1 ndcg@3 : 0.665219
+[LightGBM] [Info] Iteration:56, valid_1 ndcg@5 : 0.694007
+[LightGBM] [Info] 1.763306 seconds elapsed, finished iteration 56
+[LightGBM] [Info] Iteration:57, training ndcg@1 : 0.969012
+[LightGBM] [Info] Iteration:57, training ndcg@3 : 0.972172
+[LightGBM] [Info] Iteration:57, training ndcg@5 : 0.967994
+[LightGBM] [Info] Iteration:57, valid_1 ndcg@1 : 0.646095
+[LightGBM] [Info] Iteration:57, valid_1 ndcg@3 : 0.655239
+[LightGBM] [Info] Iteration:57, valid_1 ndcg@5 : 0.687313
+[LightGBM] [Info] 1.770909 seconds elapsed, finished iteration 57
+[LightGBM] [Info] Iteration:58, training ndcg@1 : 0.969012
+[LightGBM] [Info] Iteration:58, training ndcg@3 : 0.973708
+[LightGBM] [Info] Iteration:58, training ndcg@5 : 0.969469
+[LightGBM] [Info] Iteration:58, valid_1 ndcg@1 : 0.646095
+[LightGBM] [Info] Iteration:58, valid_1 ndcg@3 : 0.649518
+[LightGBM] [Info] Iteration:58, valid_1 ndcg@5 : 0.685
+[LightGBM] [Info] 1.778685 seconds elapsed, finished iteration 58
+[LightGBM] [Info] Iteration:59, training ndcg@1 : 0.969012
+[LightGBM] [Info] Iteration:59, training ndcg@3 : 0.973708
+[LightGBM] [Info] Iteration:59, training ndcg@5 : 0.969264
+[LightGBM] [Info] Iteration:59, valid_1 ndcg@1 : 0.632762
+[LightGBM] [Info] Iteration:59, valid_1 ndcg@3 : 0.651253
+[LightGBM] [Info] Iteration:59, valid_1 ndcg@5 : 0.68426
+[LightGBM] [Info] 1.786590 seconds elapsed, finished iteration 59
+[LightGBM] [Info] Iteration:60, training ndcg@1 : 0.969012
+[LightGBM] [Info] Iteration:60, training ndcg@3 : 0.9739
+[LightGBM] [Info] Iteration:60, training ndcg@5 : 0.969991
+[LightGBM] [Info] Iteration:60, valid_1 ndcg@1 : 0.632762
+[LightGBM] [Info] Iteration:60, valid_1 ndcg@3 : 0.650434
+[LightGBM] [Info] Iteration:60, valid_1 ndcg@5 : 0.678267
+[LightGBM] [Info] 1.794038 seconds elapsed, finished iteration 60
+[LightGBM] [Info] Iteration:61, training ndcg@1 : 0.969012
+[LightGBM] [Info] Iteration:61, training ndcg@3 : 0.974618
+[LightGBM] [Info] Iteration:61, training ndcg@5 : 0.970193
+[LightGBM] [Info] Iteration:61, valid_1 ndcg@1 : 0.652762
+[LightGBM] [Info] Iteration:61, valid_1 ndcg@3 : 0.657381
+[LightGBM] [Info] Iteration:61, valid_1 ndcg@5 : 0.678452
+[LightGBM] [Info] 1.801788 seconds elapsed, finished iteration 61
+[LightGBM] [Info] Iteration:62, training ndcg@1 : 0.971855
+[LightGBM] [Info] Iteration:62, training ndcg@3 : 0.97511
+[LightGBM] [Info] Iteration:62, training ndcg@5 : 0.970743
+[LightGBM] [Info] Iteration:62, valid_1 ndcg@1 : 0.654667
+[LightGBM] [Info] Iteration:62, valid_1 ndcg@3 : 0.665975
+[LightGBM] [Info] Iteration:62, valid_1 ndcg@5 : 0.682606
+[LightGBM] [Info] 1.809746 seconds elapsed, finished iteration 62
+[LightGBM] [Info] Iteration:63, training ndcg@1 : 0.971855
+[LightGBM] [Info] Iteration:63, training ndcg@3 : 0.97511
+[LightGBM] [Info] Iteration:63, training ndcg@5 : 0.971423
+[LightGBM] [Info] Iteration:63, valid_1 ndcg@1 : 0.654667
+[LightGBM] [Info] Iteration:63, valid_1 ndcg@3 : 0.662028
+[LightGBM] [Info] Iteration:63, valid_1 ndcg@5 : 0.681386
+[LightGBM] [Info] 1.817621 seconds elapsed, finished iteration 63
+[LightGBM] [Info] Iteration:64, training ndcg@1 : 0.971855
+[LightGBM] [Info] Iteration:64, training ndcg@3 : 0.97511
+[LightGBM] [Info] Iteration:64, training ndcg@5 : 0.972098
+[LightGBM] [Info] Iteration:64, valid_1 ndcg@1 : 0.666095
+[LightGBM] [Info] Iteration:64, valid_1 ndcg@3 : 0.669958
+[LightGBM] [Info] Iteration:64, valid_1 ndcg@5 : 0.688701
+[LightGBM] [Info] 1.825079 seconds elapsed, finished iteration 64
+[LightGBM] [Info] Iteration:65, training ndcg@1 : 0.971855
+[LightGBM] [Info] Iteration:65, training ndcg@3 : 0.975589
+[LightGBM] [Info] Iteration:65, training ndcg@5 : 0.972133
+[LightGBM] [Info] Iteration:65, valid_1 ndcg@1 : 0.654667
+[LightGBM] [Info] Iteration:65, valid_1 ndcg@3 : 0.65994
+[LightGBM] [Info] Iteration:65, valid_1 ndcg@5 : 0.683691
+[LightGBM] [Info] 1.833044 seconds elapsed, finished iteration 65
+[LightGBM] [Info] Iteration:66, training ndcg@1 : 0.971855
+[LightGBM] [Info] Iteration:66, training ndcg@3 : 0.975589
+[LightGBM] [Info] Iteration:66, training ndcg@5 : 0.973654
+[LightGBM] [Info] Iteration:66, valid_1 ndcg@1 : 0.654667
+[LightGBM] [Info] Iteration:66, valid_1 ndcg@3 : 0.651462
+[LightGBM] [Info] Iteration:66, valid_1 ndcg@5 : 0.690616
+[LightGBM] [Info] 1.840660 seconds elapsed, finished iteration 66
+[LightGBM] [Info] Iteration:67, training ndcg@1 : 0.971855
+[LightGBM] [Info] Iteration:67, training ndcg@3 : 0.976301
+[LightGBM] [Info] Iteration:67, training ndcg@5 : 0.974038
+[LightGBM] [Info] Iteration:67, valid_1 ndcg@1 : 0.654667
+[LightGBM] [Info] Iteration:67, valid_1 ndcg@3 : 0.649886
+[LightGBM] [Info] Iteration:67, valid_1 ndcg@5 : 0.692956
+[LightGBM] [Info] 1.848830 seconds elapsed, finished iteration 67
+[LightGBM] [Info] Iteration:68, training ndcg@1 : 0.971855
+[LightGBM] [Info] Iteration:68, training ndcg@3 : 0.977702
+[LightGBM] [Info] Iteration:68, training ndcg@5 : 0.974874
+[LightGBM] [Info] Iteration:68, valid_1 ndcg@1 : 0.654667
+[LightGBM] [Info] Iteration:68, valid_1 ndcg@3 : 0.647875
+[LightGBM] [Info] Iteration:68, valid_1 ndcg@5 : 0.690061
+[LightGBM] [Info] 1.856663 seconds elapsed, finished iteration 68
+[LightGBM] [Info] Iteration:69, training ndcg@1 : 0.971855
+[LightGBM] [Info] Iteration:69, training ndcg@3 : 0.979698
+[LightGBM] [Info] Iteration:69, training ndcg@5 : 0.975067
+[LightGBM] [Info] Iteration:69, valid_1 ndcg@1 : 0.666095
+[LightGBM] [Info] Iteration:69, valid_1 ndcg@3 : 0.645209
+[LightGBM] [Info] Iteration:69, valid_1 ndcg@5 : 0.689245
+[LightGBM] [Info] 1.864367 seconds elapsed, finished iteration 69
+[LightGBM] [Info] Iteration:70, training ndcg@1 : 0.971855
+[LightGBM] [Info] Iteration:70, training ndcg@3 : 0.979698
+[LightGBM] [Info] Iteration:70, training ndcg@5 : 0.975805
+[LightGBM] [Info] Iteration:70, valid_1 ndcg@1 : 0.677524
+[LightGBM] [Info] Iteration:70, valid_1 ndcg@3 : 0.652801
+[LightGBM] [Info] Iteration:70, valid_1 ndcg@5 : 0.692036
+[LightGBM] [Info] 1.871750 seconds elapsed, finished iteration 70
+[LightGBM] [Info] Iteration:71, training ndcg@1 : 0.971855
+[LightGBM] [Info] Iteration:71, training ndcg@3 : 0.979698
+[LightGBM] [Info] Iteration:71, training ndcg@5 : 0.97651
+[LightGBM] [Info] Iteration:71, valid_1 ndcg@1 : 0.677524
+[LightGBM] [Info] Iteration:71, valid_1 ndcg@3 : 0.655222
+[LightGBM] [Info] Iteration:71, valid_1 ndcg@5 : 0.693937
+[LightGBM] [Info] 1.879693 seconds elapsed, finished iteration 71
+[LightGBM] [Info] Iteration:72, training ndcg@1 : 0.971855
+[LightGBM] [Info] Iteration:72, training ndcg@3 : 0.980054
+[LightGBM] [Info] Iteration:72, training ndcg@5 : 0.976528
+[LightGBM] [Info] Iteration:72, valid_1 ndcg@1 : 0.677524
+[LightGBM] [Info] Iteration:72, valid_1 ndcg@3 : 0.653598
+[LightGBM] [Info] Iteration:72, valid_1 ndcg@5 : 0.699055
+[LightGBM] [Info] 1.887432 seconds elapsed, finished iteration 72
+[LightGBM] [Info] Iteration:73, training ndcg@1 : 0.971855
+[LightGBM] [Info] Iteration:73, training ndcg@3 : 0.980721
+[LightGBM] [Info] Iteration:73, training ndcg@5 : 0.976246
+[LightGBM] [Info] Iteration:73, valid_1 ndcg@1 : 0.677524
+[LightGBM] [Info] Iteration:73, valid_1 ndcg@3 : 0.654713
+[LightGBM] [Info] Iteration:73, valid_1 ndcg@5 : 0.702678
+[LightGBM] [Info] 1.894912 seconds elapsed, finished iteration 73
+[LightGBM] [Info] Iteration:74, training ndcg@1 : 0.971855
+[LightGBM] [Info] Iteration:74, training ndcg@3 : 0.980895
+[LightGBM] [Info] Iteration:74, training ndcg@5 : 0.976948
+[LightGBM] [Info] Iteration:74, valid_1 ndcg@1 : 0.677524
+[LightGBM] [Info] Iteration:74, valid_1 ndcg@3 : 0.660895
+[LightGBM] [Info] Iteration:74, valid_1 ndcg@5 : 0.698654
+[LightGBM] [Info] 1.903008 seconds elapsed, finished iteration 74
+[LightGBM] [Info] Iteration:75, training ndcg@1 : 0.971855
+[LightGBM] [Info] Iteration:75, training ndcg@3 : 0.980895
+[LightGBM] [Info] Iteration:75, training ndcg@5 : 0.977694
+[LightGBM] [Info] Iteration:75, valid_1 ndcg@1 : 0.677524
+[LightGBM] [Info] Iteration:75, valid_1 ndcg@3 : 0.659981
+[LightGBM] [Info] Iteration:75, valid_1 ndcg@5 : 0.701628
+[LightGBM] [Info] 1.910625 seconds elapsed, finished iteration 75
+[LightGBM] [Info] Iteration:76, training ndcg@1 : 0.971855
+[LightGBM] [Info] Iteration:76, training ndcg@3 : 0.981083
+[LightGBM] [Info] Iteration:76, training ndcg@5 : 0.977915
+[LightGBM] [Info] Iteration:76, valid_1 ndcg@1 : 0.677524
+[LightGBM] [Info] Iteration:76, valid_1 ndcg@3 : 0.656406
+[LightGBM] [Info] Iteration:76, valid_1 ndcg@5 : 0.701355
+[LightGBM] [Info] 1.918339 seconds elapsed, finished iteration 76
+[LightGBM] [Info] Iteration:77, training ndcg@1 : 0.971855
+[LightGBM] [Info] Iteration:77, training ndcg@3 : 0.981083
+[LightGBM] [Info] Iteration:77, training ndcg@5 : 0.977976
+[LightGBM] [Info] Iteration:77, valid_1 ndcg@1 : 0.663238
+[LightGBM] [Info] Iteration:77, valid_1 ndcg@3 : 0.660658
+[LightGBM] [Info] Iteration:77, valid_1 ndcg@5 : 0.701241
+[LightGBM] [Info] 1.926232 seconds elapsed, finished iteration 77
+[LightGBM] [Info] Iteration:78, training ndcg@1 : 0.971855
+[LightGBM] [Info] Iteration:78, training ndcg@3 : 0.981854
+[LightGBM] [Info] Iteration:78, training ndcg@5 : 0.977982
+[LightGBM] [Info] Iteration:78, valid_1 ndcg@1 : 0.663238
+[LightGBM] [Info] Iteration:78, valid_1 ndcg@3 : 0.660658
+[LightGBM] [Info] Iteration:78, valid_1 ndcg@5 : 0.699538
+[LightGBM] [Info] 1.934249 seconds elapsed, finished iteration 78
+[LightGBM] [Info] Iteration:79, training ndcg@1 : 0.975172
+[LightGBM] [Info] Iteration:79, training ndcg@3 : 0.983119
+[LightGBM] [Info] Iteration:79, training ndcg@5 : 0.979062
+[LightGBM] [Info] Iteration:79, valid_1 ndcg@1 : 0.663238
+[LightGBM] [Info] Iteration:79, valid_1 ndcg@3 : 0.665407
+[LightGBM] [Info] Iteration:79, valid_1 ndcg@5 : 0.695803
+[LightGBM] [Info] 1.942572 seconds elapsed, finished iteration 79
+[LightGBM] [Info] Iteration:80, training ndcg@1 : 0.975172
+[LightGBM] [Info] Iteration:80, training ndcg@3 : 0.98332
+[LightGBM] [Info] Iteration:80, training ndcg@5 : 0.979692
+[LightGBM] [Info] Iteration:80, valid_1 ndcg@1 : 0.663238
+[LightGBM] [Info] Iteration:80, valid_1 ndcg@3 : 0.654903
+[LightGBM] [Info] Iteration:80, valid_1 ndcg@5 : 0.695919
+[LightGBM] [Info] 1.950046 seconds elapsed, finished iteration 80
+[LightGBM] [Info] Iteration:81, training ndcg@1 : 0.975172
+[LightGBM] [Info] Iteration:81, training ndcg@3 : 0.98332
+[LightGBM] [Info] Iteration:81, training ndcg@5 : 0.979435
+[LightGBM] [Info] Iteration:81, valid_1 ndcg@1 : 0.663238
+[LightGBM] [Info] Iteration:81, valid_1 ndcg@3 : 0.650714
+[LightGBM] [Info] Iteration:81, valid_1 ndcg@5 : 0.698416
+[LightGBM] [Info] 1.958021 seconds elapsed, finished iteration 81
+[LightGBM] [Info] Iteration:82, training ndcg@1 : 0.977825
+[LightGBM] [Info] Iteration:82, training ndcg@3 : 0.985313
+[LightGBM] [Info] Iteration:82, training ndcg@5 : 0.980829
+[LightGBM] [Info] Iteration:82, valid_1 ndcg@1 : 0.663238
+[LightGBM] [Info] Iteration:82, valid_1 ndcg@3 : 0.649485
+[LightGBM] [Info] Iteration:82, valid_1 ndcg@5 : 0.694695
+[LightGBM] [Info] 1.965585 seconds elapsed, finished iteration 82
+[LightGBM] [Info] Iteration:83, training ndcg@1 : 0.977825
+[LightGBM] [Info] Iteration:83, training ndcg@3 : 0.985438
+[LightGBM] [Info] Iteration:83, training ndcg@5 : 0.980941
+[LightGBM] [Info] Iteration:83, valid_1 ndcg@1 : 0.683238
+[LightGBM] [Info] Iteration:83, valid_1 ndcg@3 : 0.661386
+[LightGBM] [Info] Iteration:83, valid_1 ndcg@5 : 0.698638
+[LightGBM] [Info] 1.972605 seconds elapsed, finished iteration 83
+[LightGBM] [Info] Iteration:84, training ndcg@1 : 0.977825
+[LightGBM] [Info] Iteration:84, training ndcg@3 : 0.985581
+[LightGBM] [Info] Iteration:84, training ndcg@5 : 0.981124
+[LightGBM] [Info] Iteration:84, valid_1 ndcg@1 : 0.638476
+[LightGBM] [Info] Iteration:84, valid_1 ndcg@3 : 0.648024
+[LightGBM] [Info] Iteration:84, valid_1 ndcg@5 : 0.687261
+[LightGBM] [Info] 1.980878 seconds elapsed, finished iteration 84
+[LightGBM] [Info] Iteration:85, training ndcg@1 : 0.980479
+[LightGBM] [Info] Iteration:85, training ndcg@3 : 0.986283
+[LightGBM] [Info] Iteration:85, training ndcg@5 : 0.981775
+[LightGBM] [Info] Iteration:85, valid_1 ndcg@1 : 0.641333
+[LightGBM] [Info] Iteration:85, valid_1 ndcg@3 : 0.646733
+[LightGBM] [Info] Iteration:85, valid_1 ndcg@5 : 0.689975
+[LightGBM] [Info] 1.988702 seconds elapsed, finished iteration 85
+[LightGBM] [Info] Iteration:86, training ndcg@1 : 0.980479
+[LightGBM] [Info] Iteration:86, training ndcg@3 : 0.986717
+[LightGBM] [Info] Iteration:86, training ndcg@5 : 0.982129
+[LightGBM] [Info] Iteration:86, valid_1 ndcg@1 : 0.661333
+[LightGBM] [Info] Iteration:86, valid_1 ndcg@3 : 0.651058
+[LightGBM] [Info] Iteration:86, valid_1 ndcg@5 : 0.696976
+[LightGBM] [Info] 1.996762 seconds elapsed, finished iteration 86
+[LightGBM] [Info] Iteration:87, training ndcg@1 : 0.983321
+[LightGBM] [Info] Iteration:87, training ndcg@3 : 0.987599
+[LightGBM] [Info] Iteration:87, training ndcg@5 : 0.982973
+[LightGBM] [Info] Iteration:87, valid_1 ndcg@1 : 0.658476
+[LightGBM] [Info] Iteration:87, valid_1 ndcg@3 : 0.660793
+[LightGBM] [Info] Iteration:87, valid_1 ndcg@5 : 0.690192
+[LightGBM] [Info] 2.004192 seconds elapsed, finished iteration 87
+[LightGBM] [Info] Iteration:88, training ndcg@1 : 0.983321
+[LightGBM] [Info] Iteration:88, training ndcg@3 : 0.988565
+[LightGBM] [Info] Iteration:88, training ndcg@5 : 0.983221
+[LightGBM] [Info] Iteration:88, valid_1 ndcg@1 : 0.678476
+[LightGBM] [Info] Iteration:88, valid_1 ndcg@3 : 0.666062
+[LightGBM] [Info] Iteration:88, valid_1 ndcg@5 : 0.695184
+[LightGBM] [Info] 2.011537 seconds elapsed, finished iteration 88
+[LightGBM] [Info] Iteration:89, training ndcg@1 : 0.983321
+[LightGBM] [Info] Iteration:89, training ndcg@3 : 0.989283
+[LightGBM] [Info] Iteration:89, training ndcg@5 : 0.982979
+[LightGBM] [Info] Iteration:89, valid_1 ndcg@1 : 0.658476
+[LightGBM] [Info] Iteration:89, valid_1 ndcg@3 : 0.661715
+[LightGBM] [Info] Iteration:89, valid_1 ndcg@5 : 0.692096
+[LightGBM] [Info] 2.019119 seconds elapsed, finished iteration 89
+[LightGBM] [Info] Iteration:90, training ndcg@1 : 0.983321
+[LightGBM] [Info] Iteration:90, training ndcg@3 : 0.990061
+[LightGBM] [Info] Iteration:90, training ndcg@5 : 0.983519
+[LightGBM] [Info] Iteration:90, valid_1 ndcg@1 : 0.658476
+[LightGBM] [Info] Iteration:90, valid_1 ndcg@3 : 0.66123
+[LightGBM] [Info] Iteration:90, valid_1 ndcg@5 : 0.68958
+[LightGBM] [Info] 2.027318 seconds elapsed, finished iteration 90
+[LightGBM] [Info] Iteration:91, training ndcg@1 : 0.983321
+[LightGBM] [Info] Iteration:91, training ndcg@3 : 0.990061
+[LightGBM] [Info] Iteration:91, training ndcg@5 : 0.984079
+[LightGBM] [Info] Iteration:91, valid_1 ndcg@1 : 0.674667
+[LightGBM] [Info] Iteration:91, valid_1 ndcg@3 : 0.665655
+[LightGBM] [Info] Iteration:91, valid_1 ndcg@5 : 0.696606
+[LightGBM] [Info] 2.034956 seconds elapsed, finished iteration 91
+[LightGBM] [Info] Iteration:92, training ndcg@1 : 0.983321
+[LightGBM] [Info] Iteration:92, training ndcg@3 : 0.990729
+[LightGBM] [Info] Iteration:92, training ndcg@5 : 0.984635
+[LightGBM] [Info] Iteration:92, valid_1 ndcg@1 : 0.661333
+[LightGBM] [Info] Iteration:92, valid_1 ndcg@3 : 0.652082
+[LightGBM] [Info] Iteration:92, valid_1 ndcg@5 : 0.692318
+[LightGBM] [Info] 2.042589 seconds elapsed, finished iteration 92
+[LightGBM] [Info] Iteration:93, training ndcg@1 : 0.989007
+[LightGBM] [Info] Iteration:93, training ndcg@3 : 0.99286
+[LightGBM] [Info] Iteration:93, training ndcg@5 : 0.985859
+[LightGBM] [Info] Iteration:93, valid_1 ndcg@1 : 0.674667
+[LightGBM] [Info] Iteration:93, valid_1 ndcg@3 : 0.658337
+[LightGBM] [Info] Iteration:93, valid_1 ndcg@5 : 0.694719
+[LightGBM] [Info] 2.050523 seconds elapsed, finished iteration 93
+[LightGBM] [Info] Iteration:94, training ndcg@1 : 0.989007
+[LightGBM] [Info] Iteration:94, training ndcg@3 : 0.99286
+[LightGBM] [Info] Iteration:94, training ndcg@5 : 0.986047
+[LightGBM] [Info] Iteration:94, valid_1 ndcg@1 : 0.674667
+[LightGBM] [Info] Iteration:94, valid_1 ndcg@3 : 0.653159
+[LightGBM] [Info] Iteration:94, valid_1 ndcg@5 : 0.690883
+[LightGBM] [Info] 2.058278 seconds elapsed, finished iteration 94
+[LightGBM] [Info] Iteration:95, training ndcg@1 : 0.989007
+[LightGBM] [Info] Iteration:95, training ndcg@3 : 0.99286
+[LightGBM] [Info] Iteration:95, training ndcg@5 : 0.986549
+[LightGBM] [Info] Iteration:95, valid_1 ndcg@1 : 0.674667
+[LightGBM] [Info] Iteration:95, valid_1 ndcg@3 : 0.655196
+[LightGBM] [Info] Iteration:95, valid_1 ndcg@5 : 0.694555
+[LightGBM] [Info] 2.066035 seconds elapsed, finished iteration 95
+[LightGBM] [Info] Iteration:96, training ndcg@1 : 0.989007
+[LightGBM] [Info] Iteration:96, training ndcg@3 : 0.99286
+[LightGBM] [Info] Iteration:96, training ndcg@5 : 0.986925
+[LightGBM] [Info] Iteration:96, valid_1 ndcg@1 : 0.674667
+[LightGBM] [Info] Iteration:96, valid_1 ndcg@3 : 0.656939
+[LightGBM] [Info] Iteration:96, valid_1 ndcg@5 : 0.69425
+[LightGBM] [Info] 2.073508 seconds elapsed, finished iteration 96
+[LightGBM] [Info] Iteration:97, training ndcg@1 : 0.989007
+[LightGBM] [Info] Iteration:97, training ndcg@3 : 0.99286
+[LightGBM] [Info] Iteration:97, training ndcg@5 : 0.986891
+[LightGBM] [Info] Iteration:97, valid_1 ndcg@1 : 0.674667
+[LightGBM] [Info] Iteration:97, valid_1 ndcg@3 : 0.656939
+[LightGBM] [Info] Iteration:97, valid_1 ndcg@5 : 0.692011
+[LightGBM] [Info] 2.081612 seconds elapsed, finished iteration 97
+[LightGBM] [Info] Iteration:98, training ndcg@1 : 0.989007
+[LightGBM] [Info] Iteration:98, training ndcg@3 : 0.99286
+[LightGBM] [Info] Iteration:98, training ndcg@5 : 0.986925
+[LightGBM] [Info] Iteration:98, valid_1 ndcg@1 : 0.69181
+[LightGBM] [Info] Iteration:98, valid_1 ndcg@3 : 0.662281
+[LightGBM] [Info] Iteration:98, valid_1 ndcg@5 : 0.693306
+[LightGBM] [Info] 2.089401 seconds elapsed, finished iteration 98
+[LightGBM] [Info] Iteration:99, training ndcg@1 : 0.989007
+[LightGBM] [Info] Iteration:99, training ndcg@3 : 0.99286
+[LightGBM] [Info] Iteration:99, training ndcg@5 : 0.986925
+[LightGBM] [Info] Iteration:99, valid_1 ndcg@1 : 0.69181
+[LightGBM] [Info] Iteration:99, valid_1 ndcg@3 : 0.664702
+[LightGBM] [Info] Iteration:99, valid_1 ndcg@5 : 0.69623
+[LightGBM] [Info] 2.096967 seconds elapsed, finished iteration 99
+[LightGBM] [Info] Iteration:100, training ndcg@1 : 0.989007
+[LightGBM] [Info] Iteration:100, training ndcg@3 : 0.99286
+[LightGBM] [Info] Iteration:100, training ndcg@5 : 0.986925
+[LightGBM] [Info] Iteration:100, valid_1 ndcg@1 : 0.674667
+[LightGBM] [Info] Iteration:100, valid_1 ndcg@3 : 0.661501
+[LightGBM] [Info] Iteration:100, valid_1 ndcg@5 : 0.691295
+[LightGBM] [Info] 2.104448 seconds elapsed, finished iteration 100
+[LightGBM] [Info] Finished training
+[LightGBM] [Info] GBDT::total train time 2.104448
+[LightGBM] [Info] GBDT::boosting costs 0.015219
+[LightGBM] [Info] GBDT::train_score costs 0.002444
+[LightGBM] [Info] GBDT::out_of_bag_score costs 0.005048
+[LightGBM] [Info] GBDT::valid_score costs 0.004603
+[LightGBM] [Info] GBDT::metric costs 0.019142
+[LightGBM] [Info] GBDT::bagging costs 0.003149
+[LightGBM] [Info] GBDT::tree costs 2.052936
+[LightGBM] [Info] SerialTreeLearner::init_train costs 0.023784
+[LightGBM] [Info] SerialTreeLearner::init_split costs 0.625215
+[LightGBM] [Info] SerialTreeLearner::hist_build costs 0.759752
+[LightGBM] [Info] SerialTreeLearner::find_split costs 0.209067
+[LightGBM] [Info] SerialTreeLearner::split costs 0.389893
+[LightGBM] [Info] SerialTreeLearner::ordered_bin costs 0.192032

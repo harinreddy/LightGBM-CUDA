@@ -1,0 +1,2 @@
+ ../../lightgbm config=train.conf log_train_time=true| tee train-log
+#../../lightgbm config=train.conf num_iterations=1

@@ -1,0 +1,1 @@
+../../lightgbm config=train.conf device=gpu gpu_platform_id=0 gpu_device_id=0 log_train_time=true | tee train_OpenCL-log

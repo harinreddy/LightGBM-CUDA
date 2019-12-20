@@ -1,0 +1,2 @@
+../../lightgbm config=train.conf device=cuda gpu_platform_id=0 gpu_device_id=0 log_train_time=true  | tee train_CUDA-log
+#../../lightgbm config=train.conf device=cuda gpu_platform_id=0 gpu_device_id=0 num_iterations=1
